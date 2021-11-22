@@ -1,0 +1,70 @@
+#fullContainer{
+    width: 40%;
+    margin: 2em auto 0em;
+    
+}
+.headCont{
+    width: 40%;
+    margin: 2em auto;
+}
+.offers{
+    color:red;
+    display: inline;
+    font-weight: bold;
+}
+.coupon{
+    color: grey;
+    display: inline;
+    margin-left: 2em;
+}
+.priceTagCont{
+    display: block;
+}
+.priceTag{
+    vertical-align: middle;
+    margin:0 0.5em 0 0;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+
+}
+.productName{
+
+}
+.price{
+
+}
+.plusIcon{
+    width: 20px;
+    height: 20px;
+}
+.count{
+    width: 15%;
+display: flex;
+justify-content: space-around;
+}
+.minusIcon{
+    width: 20px;
+    height: 20px;
+    vertical-align: top;
+}
+.img{
+width: 80px;
+height: 80px;
+vertical-align: top;
+}
+.total{
+    width: 40%;
+    margin: 1em auto;
+}
+@media screen and (max-width:780px) {
+    #fullContainer,.headCont,.total{
+     width: 70%;
+    }
+}
+@media screen and (max-width:450px) {
+    #fullContainer,.headCont,.total{
+     width: 90%;
+    }
+}
